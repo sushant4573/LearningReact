@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 import './App.css';
-import ParentComponent from './component/ParentComponent';
+import UserGreeting from './component/UserGreeting';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <ParentComponent />
+        <UserGreeting />
       </div>
     );
   }
