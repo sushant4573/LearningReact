@@ -1,16 +1,14 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
 import Greet from './component/Greet'
-import Welcome from './component/welcome'
-import Message from './component/Message'
-import Counter from './component/counter';
-
+import FuncClick from './component/funcClick';
+import ClassClick from './component/ClassClick';
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <Counter />
+        <ClassClick/>
+        <FuncClick/>
       </div>
     );
   }
