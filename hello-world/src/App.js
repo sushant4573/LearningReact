@@ -8,8 +8,14 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Greet />
-        <Welcome />
+        <Greet name='BRUCE WAYNE' heroName='BATMAN' />
+          <h4>I am BatMan</h4>
+        <Greet name='CLARKE KENT' heroName='SUPERMAN' />
+          <h4>I am SuperMan son of Krypton</h4>
+        <Greet name='DIANA PRINCE' heroName='WONDER-WOMAN' />
+          <h4>I am Dianna Prince of themeskera</h4>
+        <Welcome name="JOKER"/>
+        
       </div>
     );
   }
