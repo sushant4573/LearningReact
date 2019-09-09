@@ -1,14 +1,12 @@
 import React, { Component } from 'react';
 import './App.css';
-import Greet from './component/Greet'
-import FuncClick from './component/funcClick';
-import ClassClick from './component/ClassClick';
-import EventBind from './component/EventBind';
+import ParentComponent from './component/ParentComponent';
+
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <EventBind/>
+        <ParentComponent />
       </div>
     );
   }
