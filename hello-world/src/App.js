@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 import './App.css';
 import './css/styles.css';
-import LifeCycleA from './component/LifeCycleA';
+import Table from './component/Table';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <LifeCycleA />
+        <Table />
       </div> 
     );
   }
