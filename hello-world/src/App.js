@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 import './App.css';
 import './css/styles.css';
-import Table from './component/Table';
+import ParentComp from './component/ParentComp';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <Table />
+        <ParentComp />
       </div> 
     );
   }
