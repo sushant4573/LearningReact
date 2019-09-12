@@ -1,13 +1,17 @@
 import React, { Component } from 'react';
 import './App.css';
-import UserGreeting from './component/UserGreeting';
+import './css/styles.css';
+import RefsDemo from './component/RefsDemo';
+import FocusInput from './component/FocusInput';
+import FrParentInput from './component/FrParentInput';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <UserGreeting />
-      </div>
+       {/* <FocusInput /> */}
+       <FrParentInput />
+      </div> 
     );
   }
 }
